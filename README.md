@@ -1,4 +1,4 @@
-# 🌟 Landing Page - Projeto 1
+# 🌟 Landing Page
 
 Seja bem-vindo(a) ao meu projeto de Landing Page!  
 Este é um site simples e responsivo criado com muito carinho, voltado para fins de prática e aprendizado em desenvolvimento front-end. 🚀
