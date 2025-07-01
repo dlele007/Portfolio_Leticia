@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', Courier, monospace;
+    background-image: linear-gradient(rgb(97, 97, 97), rgb(28, 28, 28));
+    color: #f1f1f1;
+    line-height: 1.6;
+    padding: 0 20px;
+    margin-left: 150px;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #000000;
+}
+
+header h1 {
+    font-family: 'Manrope', Courier, monospace;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.eu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.eu img {
+    width: 250px;       
+    height: 250px;       
+    border-radius: 50%;  /* transforma em círculo */
+    object-fit: cover;   /* garante que a imagem se encaixe direitinho */
+    border: 1px solid #000000;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+.vr {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #dcdcdc;
+}
+
+/*Navegação*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 200vh;
+    background-color: #f8f0fa;
+    padding: 1rem 1rem;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 1rem 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #2d2c2d;
+    color: #fff;
+}
+
+/*Sobre mim*/
+
+.texto h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+/*Habilidades*/
+
+#habilidades {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#habilidades h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}   
+
+#habilidades ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#habilidades li {
+    background-color: #0a0c14;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fbfdfd33;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#habilidades li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #ffffff;
+}
+
+#habilidades li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*Projetos*/
+
+.galeria-projetos {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.galeria-projetos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-projeto {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.card-projeto img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    max-height: 160px;
+}
+
+.card-projeto h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card-projeto p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.card-projeto a {
+    text-decoration: none;
+    background-color: #191519;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.card-projeto a:hover {
+    background-color: #7e7e7e;
+}
+
+/*Hoobies*/
+
+.caixas-duplas {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+#hobbies {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#hobbies h2,
+#redes-sociais h2 {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+#redes-sociais ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#redes-sociais li {
+  margin: 0.5rem 0;
+}
+
+#redes-sociais a {
+  text-decoration: none;
+  color: #d0cfd0;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#redes-sociais a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #004aa5;
+}
+
+.link-registros {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #fff;
+  color: #1e1e1e;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.link-registros:hover {
+  background: #999999;
+  color: #fff;
+}
+
+/*Footer*/
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #00000033;
+  font-size: 0.9rem;
+  color: #888;
+}
