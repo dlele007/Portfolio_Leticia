@@ -5,10 +5,10 @@ Este é um site simples e responsivo criado com muito carinho, voltado para fins
 
 ## 🔧 Feito com:
 
-- 💠 **HTML5** — a estrutura da história.
-- 🎨 **CSS3** — o estilo do sonho.
-- 🌀 **Responsividade** — pra caber em todos os mundos (ou telas).
-- ✨ Criatividade — porque a web merece alma.
+- 💠 **HTML5**
+- 🎨 **CSS3**
+- 🌀 **Responsividade**
+- ✨ **Criatividade**
 
 ## 📄 Descrição
 
@@ -22,8 +22,19 @@ Este projeto tem como objetivo treinar habilidades básicas de front-end, como:
 A página contém:
 
 - Cabeçalho com navegação
-- Seções organizadas (sobre, serviços, contato, etc.)
+- Seções organizadas (sobre, projetos, contato, etc.)
 - Rodapé com informações adicionais
+
+## 📷 Meus Registros
+Existe um lugar especial nesta landing page, Uma galeria de fotografias...
+Essa seção é dedicada aos **meus registros fotográficos**, fruto de uma paixão.
+
+### 💡 O que você vai encontrar:
+
+- **Imagens organizadas em caixas elegantes**: em harmonia, como uma exposição virtual.
+- **Hover interativo**: quando você passa o mouse, cada imagem revela uma descrição suave.
+- **Design responsivo**: suas emoções, na tela que couber em suas mãos.
+- **(em breve) Clique com efeito**: ao clicar em uma imagem, ela se destaca no centro da tela, com descrição.
 
 ## ✨ Melhorias Futuras
 
