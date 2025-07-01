@@ -10,7 +10,7 @@ Este é um site simples e responsivo criado com muito carinho, voltado para fins
 - 🌀 **Responsividade** — pra caber em todos os mundos (ou telas).
 - ✨ Criatividade — porque a web merece alma.
 
-- ## 📄 Descrição
+## 📄 Descrição
 
 Este projeto tem como objetivo treinar habilidades básicas de front-end, como:
 
