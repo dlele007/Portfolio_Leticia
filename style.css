@@ -91,6 +91,9 @@ header h1 {
 }
 
 /*Sobre mim*/
+#sobre-mim{
+    text-align: center;
+}
 
 .texto h2{
     font-size: 2.5rem;
