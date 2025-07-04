@@ -91,6 +91,9 @@ header h1 {
 }
 
 /*Sobre mim*/
+#sobre-mim{
+    text-align: center;
+}
 
 .texto h2{
     font-size: 2.5rem;
@@ -156,7 +159,7 @@ header h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
