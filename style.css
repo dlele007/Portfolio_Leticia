@@ -270,8 +270,9 @@ header h1 {
 }
 
 .link-registros:hover {
-  background: #999999;
-  color: #fff;
+  background: #7a7a7a;
+  color: white;
+  transform: scale(1.05);
 }
 
 /*Footer*/
